@@ -6,7 +6,7 @@
 export const Guilherme = {
   age: 22,
   location: 'Brazil',
-  occupation: 'Fullstack Software Development Intern',
+  occupation: 'Fullstack Software Development Intern at dti digital',
   stack: [ "Typescript", "C#", ".NET", "Java", "AWS Cloud Services" ],
   education: {
       area: 'Software Engineering',
