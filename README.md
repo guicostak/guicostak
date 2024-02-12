@@ -34,7 +34,7 @@ education: {
 <br />
 <br />
 
-![My Skills](https://skillicons.dev/icons?i=ts,c#,js,java,aws,react,postman,postgres&perline=12)
+![My Skills](https://skillicons.dev/icons?i=ts,csharp,js,java,aws,react,postman,postgres&perline=12)
 
 <br />
     
