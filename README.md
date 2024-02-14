@@ -8,7 +8,7 @@ export const Guilherme = {
   location: 'Brazil',
   occupation: 'Fullstack Software Development Intern at dti digital',
   stack: [ "Typescript", "C#", ".NET", "Java", "AWS Cloud Services" ],
-  education: {
+  education: [{
       area: 'Software Engineering',
       degree: 'BS',
       institution: 'PUC Minas',
@@ -19,7 +19,7 @@ education: {
       degree: 'AAS',
       institution: 'PUC Minas',
       status: 'Enrolled',
-  },
+  }],
   hobbies: [ "reading📖", "work out🏋️", "code🧑‍💻" ]
 };
 ```
