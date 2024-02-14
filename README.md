@@ -22,7 +22,7 @@ export const Guilherme = {
       status: 'Enrolled',
   }
 ],
-  hobbies: [ "reading📖", "work out🏋️", "code🧑‍💻" ]
+  hobbies: [ "read📖", "work out🏋️", "code🧑‍💻" ]
 };
 ```
 
