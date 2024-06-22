@@ -15,12 +15,6 @@ export const Guilherme = {
       institution: 'PUC Minas',
       status: 'Enrolled',
   },
-  {
-      area: 'Analysiss and Systems Development',
-      degree: 'AAS',
-      institution: 'PUC Minas',
-      status: 'Enrolled',
-  }
 ],
   hobbies: [ "read📖", "work out🏋️", "code🧑‍💻" ]
 };
