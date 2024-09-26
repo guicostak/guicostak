@@ -23,7 +23,6 @@ export const Guilherme = {
 ###
 
 <div>
-  <img height="180em" width="auto" src="https://github-readme-stats.vercel.app/api?username=guicostak&theme=aura_dark&show_icons=true"/>
   <img height="180em" width="auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=guicostak&layout=compact&langs_count=7&theme=aura_dark"/>
 </div>
 
