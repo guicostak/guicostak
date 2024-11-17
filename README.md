@@ -30,7 +30,7 @@ export const Guilherme = {
 <br />
 <br />
 
-![My Skills](https://skillicons.dev/icons?i=java,spring,aws,react,next,ts,js,postgres,mongodb&perline=12)
+![My Skills](https://skillicons.dev/icons?i=java,spring,aws,react,next,ts,js,postgres,mongodb,flutter&perline=12)
     
 ###
   <a href = "mailto:guilhermecosta.barros0@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
