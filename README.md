@@ -46,5 +46,5 @@ export const Guilherme = {
 <a href="https://github.com/guicostak/ClinicaExameMais"><img src="https://github-readme-stats.vercel.app/api/pin/?username=guicostak&repo=ClinicaExameMais&title_color=F73C7B&text_color=F2F2F2&bg_color=393359&border_color=121111&icon_color=F2F2F2&border_radius=20" height="100"/></a>
 <a href="https://github.com/guicostak/REST-API-SpringBoot"><img src="https://github-readme-stats.vercel.app/api/pin/?username=guicostak&repo=REST-API-SpringBoot&title_color=F73C7B&text_color=F2F2F2&bg_color=393359&border_color=121111&icon_color=F2F2F2&border_radius=20" height="100"/></a>
 
-![Snake animation](https://github.com/guicostak/guicostak/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/seu-usuario/seu-usuario/blob/output/github-contribution-grid-snake.svg)
 </div>
