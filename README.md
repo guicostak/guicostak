@@ -39,7 +39,6 @@ export const Guilherme = {
   <a href = "https://www.linkedin.com/in/guicostak/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
   <a href = "https://api.whatsapp.com/send?phone=5531991470591&text=ol%C3%A1%2C%20vim%20pelo%20seu%20perfil%20do%20GitHub!%20"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a>
   <a href="https://discordapp.com/users/363004143813525506/" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
-![Snake animation](https://github.com/guicostak/guicostak/blob/output/github-contribution-grid-snake.svg)
 
 ## **Recent projects:**
 
@@ -47,4 +46,5 @@ export const Guilherme = {
 <a href="https://github.com/guicostak/ClinicaExameMais"><img src="https://github-readme-stats.vercel.app/api/pin/?username=guicostak&repo=ClinicaExameMais&title_color=F73C7B&text_color=F2F2F2&bg_color=393359&border_color=121111&icon_color=F2F2F2&border_radius=20" height="100"/></a>
 <a href="https://github.com/guicostak/REST-API-SpringBoot"><img src="https://github-readme-stats.vercel.app/api/pin/?username=guicostak&repo=REST-API-SpringBoot&title_color=F73C7B&text_color=F2F2F2&bg_color=393359&border_color=121111&icon_color=F2F2F2&border_radius=20" height="100"/></a>
 
+![Snake animation](https://github.com/guicostak/guicostak/blob/output/github-contribution-grid-snake.svg)
 </div>
