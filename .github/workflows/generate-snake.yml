@@ -1,46 +1,46 @@
-name: Generate Snake Animation
+# Nome da Actions:  
+name: Snake Game
 
+# Controlador do tempo que sera feito a atualização dos arquivos.
 on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"  # Executa uma vez por dia, você pode ajustar conforme necessário
+      # Será atualizado a cada 5 horas.
+    - cron: "0 */5 * * *"
 
+# Permite executar na na lista de Actions (utilizado para testes de build).
+  workflow_dispatch:
+
+# Regras
 jobs:
   build:
-    name: Generate Snake GIF and Upload to GitHub Pages
     runs-on: ubuntu-latest
     steps:
-    
-    # Passo 1: Fazer checkout do código
-    - name: Checkout repository
-      uses: actions/checkout@v2
 
-    # Passo 2: Gerar a animação de cobra
-    - name: Generate Snake GIF
-      uses: Platane/snk@master
-      id: snake-gif
-      with:
-        github_user_name: guicostak  # Seu nome de usuário no GitHub
-        svg_out_path: dist/github-contribution-grid-snake.svg  # Caminho onde a animação será gerada
+    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
+      - uses: actions/checkout@v2
 
-    # Passo 3: Subir a animação gerada para a branch `output` do GitHub Pages
-    - name: Deploy to GitHub Pages
-      uses: crazy-max/ghaction-github-pages@v2.1.3
-      with:
-        target_branch: output  # A branch onde o GitHub Pages irá puxar o conteúdo
-        build_dir: dist  # Diretório com os arquivos gerados
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Token do GitHub para autenticação
+    # Repositorio que será utilizado para gerar os arquivos.
+      - uses: Platane/snk@master
+        id: snake-gif
+        with:
+          github_user_name: guicostak
+          gif_out_path: dist/github-contribution-grid-snake.gif
+          svg_out_path: dist/github-contribution-grid-snake.svg
 
-    # Passo 4: Confirmar se o arquivo foi gerado e enviado corretamente
-    - name: Check if file exists
-      run: |
-        if [ -f "dist/github-contribution-grid-snake.svg" ]; then
-          echo "Arquivo gerado com sucesso!"
-        else
-          echo "Arquivo não encontrado!"
-          exit 1
-        fi
+      - run: git status
+
+      # Para as atualizações.
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+          force: true
+
+      - uses: crazy-max/ghaction-github-pages@v2.1.3
+        with:
+          # the output branch we mentioned above
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
