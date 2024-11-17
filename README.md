@@ -30,7 +30,7 @@ export const Guilherme = {
 <br />
 <br />
 
-![My Skills](https://skillicons.dev/icons?i=java,spring,aws,react,ts,js,next,postgres,mongodb&perline=12)
+![My Skills](https://skillicons.dev/icons?i=java,spring,aws,react,next,ts,js,postgres,mongodb&perline=12)
 
 <br />
     
