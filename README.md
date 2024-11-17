@@ -30,15 +30,14 @@ export const Guilherme = {
 <br />
 <br />
 
-![My Skills](https://skillicons.dev/icons?i=ts,cs,js,java,aws,react,postman,postgres,vue&perline=12)
+![My Skills](https://skillicons.dev/icons?i=java,spring,aws,react,ts,js,postgres,mongodb&perline=12)
 
 <br />
     
 ###
   <a href = "mailto:guilhermecosta.barros0@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href = "https://www.linkedin.com/in/guicostak/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-  <a href = "https://api.whatsapp.com/send?phone=5531991470591&text=ol%C3%A1%2C%20vim%20pelo%20seu%20perfil%20do%20GitHub!%20"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a>
-  <a href="https://discordapp.com/users/363004143813525506/" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
+  <a href = "https://api.whatsapp.com/send?phone=5531995054078&text=ol%C3%A1%2C%20vim%20pelo%20seu%20perfil%20do%20GitHub!%20"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a>
 
 
 ![Snake animation](https://github.com/guicostak/guicostak/blob/output/github-contribution-grid-snake.svg)
