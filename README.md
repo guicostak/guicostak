@@ -9,13 +9,13 @@ export const Guilherme = {
   occupation: 'Backend Software Developer Junior at inter',
   stack: ["Java", "Spring Boot", "AWS Cloud Services" ],
   education: [
-  {
-      area: 'Software Engineering',
-      degree: 'BS',
-      institution: 'PUC Minas',
-      status: 'Enrolled',
-  },
-],
+    {
+        area: 'Software Engineering',
+        degree: 'BS',
+        institution: 'PUC Minas',
+        status: 'Enrolled',
+    },
+  ],
 };
 ```
   <a href = "mailto:guilhermecosta.barros0@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
