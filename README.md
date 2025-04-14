@@ -6,8 +6,8 @@
 export const Guilherme = {
   age: 23,
   location: 'Brazil',
-  occupation: 'Backend Software Developer Junior at inter',
-  stack: ["Java", "Spring Boot", "AWS Cloud Services" ],
+  occupation: 'Backend Software Developer at PicPay',
+  stack: ["Java", "Spring Boot", "AWS Cloud Services", "Kubernetes" ],
   education: [
     {
         area: 'Software Engineering',
