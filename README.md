@@ -4,7 +4,7 @@
 
 ```js
 export const Guilherme = {
-  age: 23,
+  age: 24,
   location: 'Brazil',
   occupation: 'Backend Software Developer at PicPay',
   stack: ["Java", "Spring Boot", "AWS Cloud Services", "Kubernetes" ],
